@@ -43,7 +43,7 @@ to companies that need it most — without the Fortune 500 price tag.
       url = "#contact"
     [params.hero.socialLinks]
       fontAwesomeIcons = [
-        { icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/YOURLINKEDIN/" },
+        { icon = "fab fa-linkedin", url = "https://www.linkedin.com/in/tom-hinkle-832a1711/" },
       ]
 
   [params.about]
@@ -156,7 +156,7 @@ I'd love to hear about what you're working on.
     [params.footer.recentPosts]
       enable = false
     [params.footer.socialNetworks]
-      linkedin = "https://www.linkedin.com/in/YOURLINKEDIN/"
+      linkedin = "https://www.linkedin.com/in/tom-hinkle-832a1711/"
 
 [menus]
   [[menus.main]]
