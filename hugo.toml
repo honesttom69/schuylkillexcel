@@ -175,6 +175,11 @@ I'd love to hear about what you're working on.
     url = "/#projects"
     weight = 30
   [[menus.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blogs"
+    weight = 35
+  [[menus.main]]
     identifier = "contact"
     name = "Contact"
     url = "/#contact"
