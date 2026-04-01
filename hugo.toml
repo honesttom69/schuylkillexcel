@@ -1,4 +1,4 @@
-baseURL = "https://schuylkillexcel.com/"
+baseURL = "https://honesttom69.github.io/schuylkillexcel/"
 languageCode = "en-us"
 title = "SchuylkillExcel | Tom — Operations Finance & Small Business Consulting"
 theme = "hugo-profile"
@@ -29,12 +29,13 @@ theme = "hugo-profile"
     title = "Tom."
     subtitle = "Operations Finance & Small Business Consulting"
     content = """
-I help small and mid-size businesses make better decisions with better numbers. \
-From Power BI dashboards to ERP implementations, I bring Fortune 500 finance discipline \
-to companies that need it most — without the Fortune 500 price tag.
+I spent a decade in operations finance at companies like Fortune Brands and Boston Beer. \
+Now I help small businesses get the same caliber systems and reporting \
+without the enterprise price tag. Dashboards, ERP, forecasting, AI automation — \
+built to actually get used, not collect dust.
 """
-    [params.hero.image]
-      url = "/images/headshot.jpg"
+    #[params.hero.image]
+    #  url = "/images/headshot.jpg"
     [params.hero.bottomImage]
       enable = false
     [params.hero.button]
@@ -49,18 +50,17 @@ to companies that need it most — without the Fortune 500 price tag.
   [params.about]
     enable = true
     title = "About Me"
-    image = "/images/headshot.jpg"
+    #image = "/images/headshot.jpg"
     content = """
-I'm an Operations Finance Manager with experience spanning Fortune Brands Innovations, \
-Boston Beer Company, and Weis Markets. I specialize in turning messy financial data into \
-clear, actionable insights — whether that's building Power BI dashboards, implementing \
-ERP systems, or designing forecasting models that actually work.
+I'm an operations finance manager in rural Pennsylvania. I've done financial reporting \
+at a $3B grocery chain, built demand forecasting dashboards for Truly Hard Seltzer at \
+Boston Beer, and currently run ops finance for a manufacturing subsidiary of Fortune Brands.
 
-I'm a Dale Carnegie Communication Graduate who believes the best financial analysis is \
-the kind that everyone in the room can understand.
+On the side, I built an AI system on a $0 budget that manages 100+ projects, sends me \
+daily briefings, and runs my entire GTD workflow — on an old computer in my basement.
 
-Currently building an independent consulting practice focused on small and mid-size businesses \
-that need real finance infrastructure without a full-time CFO.
+I'm building a consulting practice to bring that same combination of finance discipline \
+and practical AI automation to small businesses that need it.
 """
     [params.about.skills]
       enable = true
@@ -149,8 +149,8 @@ AP/AR optimization, accrual management, and reporting automation.
 Whether you need a one-time project or ongoing fractional finance support, \
 I'd love to hear about what you're working on.
 """
-    btnName = "Email Me"
-    btnLink = "mailto:tom@schuylkillexcel.com"
+    btnName = "Connect on LinkedIn"
+    btnLink = "https://www.linkedin.com/in/tom-hinkle-832a1711/"
 
   [params.footer]
     [params.footer.recentPosts]
