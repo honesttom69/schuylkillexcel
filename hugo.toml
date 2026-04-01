@@ -12,7 +12,7 @@ theme = "hugo-profile"
 [params]
   title = "SchuylkillExcel"
   description = "Operations finance consulting for small and mid-size businesses"
-  favicon = "/favicon.ico"
+  #favicon = "/favicon.ico"
   useBootstrapCDN = true
   animate = true
 
