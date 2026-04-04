@@ -52,15 +52,16 @@ built to actually get used, not collect dust.
     title = "About Me"
     #image = "/images/headshot.jpg"
     content = """
-I'm an operations finance manager in rural Pennsylvania. I've done financial reporting \
-at a $3B grocery chain, built demand forecasting dashboards for Truly Hard Seltzer at \
-Boston Beer, and currently run ops finance for a manufacturing subsidiary of Fortune Brands.
+I've spent a decade in operations finance — financial reporting at a $3B grocery chain, \
+demand forecasting for Truly Hard Seltzer at Boston Beer, and currently running ops finance \
+for a Fortune Brands manufacturing subsidiary.
 
-On the side, I built an AI system on a $0 budget that manages 100+ projects, sends me \
-daily briefings, and runs my entire GTD workflow — on an old computer in my basement.
+I also built an AI assistant on a $0 budget that manages 100+ projects and runs my entire \
+productivity system — on an old computer in my basement. I like figuring out how things \
+work and making them work better.
 
-I'm building a consulting practice to bring that same combination of finance discipline \
-and practical AI automation to small businesses that need it.
+Now I'm helping small businesses get the same caliber finance systems and AI automation \
+that big companies have, without the big company price tag or complexity.
 """
     [params.about.skills]
       enable = true
@@ -69,9 +70,9 @@ and practical AI automation to small businesses that need it.
         "Power BI Dashboards & Reporting",
         "Financial Forecasting & Cost Analysis",
         "ERP Implementation (SAP, QuickBooks Online, Fulcrum)",
-        "SAP Analytics Cloud (SAC)",
-        "Operations Finance & Process Improvement",
         "Excel Modeling & Automation",
+        "Operations Finance & Process Improvement",
+        "AI Automation & Workflow Design",
       ]
 
   [params.experience]
@@ -113,34 +114,42 @@ and 190+ store locations.
     [[params.projects.items]]
       title = "Power BI Dashboards & Reporting"
       content = """
-Transform raw data into dashboards your team will actually use. I build reporting \
-infrastructure that connects to your existing systems and surfaces the metrics that matter.
+Dashboards your team will actually use — not shelf-ware. I connect to your existing \
+systems and surface the numbers that matter, so you stop guessing.
 """
       badges = ["Power BI", "SSRS", "SQL", "Excel"]
 
     [[params.projects.items]]
       title = "Financial Forecasting & Cost Analysis"
       content = """
-Sales-to-shipment forecasting, cost modeling, and variance analysis. I design models \
-that are accurate, maintainable, and understandable — not black boxes.
+Sales-to-shipment forecasting, cost modeling, and variance analysis. I build models \
+you can actually understand and maintain yourself — not black boxes.
 """
-      badges = ["Forecasting", "Cost Analysis", "Excel", "SAC"]
+      badges = ["Forecasting", "Cost Analysis", "Excel", "SQL"]
 
     [[params.projects.items]]
       title = "ERP Implementation & QBO Optimization"
       content = """
-From evaluating ERP platforms to configuring QuickBooks Online for growing businesses. \
-I identify configuration gaps and build processes that scale.
+Whether you're outgrowing spreadsheets or your current ERP isn't set up right, I help \
+you pick the right tool and configure it so it actually works for your business.
 """
       badges = ["ERP", "QuickBooks Online", "Fulcrum", "SAP"]
 
     [[params.projects.items]]
       title = "Operations Finance Process Improvement"
       content = """
-Audit your current finance workflows, identify bottlenecks, and implement improvements. \
-AP/AR optimization, accrual management, and reporting automation.
+I look at how your finance workflows actually run, find what's slowing you down, and fix it. \
+AP/AR cleanup, accrual management, reporting automation.
 """
       badges = ["Process Improvement", "AP/AR", "Accruals", "Automation"]
+
+    [[params.projects.items]]
+      title = "AI Automation & Workflow Design"
+      content = """
+Practical AI that does real work — not hype. I build automated workflows, \
+reporting pipelines, and AI assistants that save you hours every week.
+"""
+      badges = ["AI", "Automation", "Workflow", "Productivity"]
 
   [params.contact]
     enable = true
