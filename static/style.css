@@ -44,6 +44,17 @@ section {
   padding-bottom: 1.5rem !important;
 }
 
+/* Hero logo - match text height, no card background */
+#hero .image img {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Kill the gap between hero and about */
 #hero {
   min-height: auto !important;
