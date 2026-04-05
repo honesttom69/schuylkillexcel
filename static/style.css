@@ -167,9 +167,10 @@ section h3 {
   box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.12);
 }
 .experience-logo {
-  max-width: 120px;
-  max-height: 60px;
+  width: 80px;
+  height: 50px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 .experience-title {
   color: var(--se-dark) !important;
