@@ -1,0 +1,62 @@
+/* SchuylkillExcel Brand Colors */
+/* Teal: #006D6F  |  Green: #7AB800 */
+
+:root {
+  --se-teal: #006D6F;
+  --se-green: #7AB800;
+  --se-dark: #1a1a2e;
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--se-teal) !important;
+  border-color: var(--se-teal) !important;
+  color: #fff !important;
+}
+.btn:hover {
+  background-color: #005557 !important;
+  border-color: #005557 !important;
+}
+
+/* Links */
+a {
+  color: var(--se-teal);
+}
+a:hover {
+  color: #005557;
+}
+
+/* Badges on service cards */
+.badge-secondary {
+  background-color: var(--se-teal) !important;
+  color: #fff !important;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  color: var(--se-teal) !important;
+  font-weight: 600;
+}
+
+/* Hero section */
+#hero h1 {
+  color: var(--se-teal);
+}
+#hero h2 {
+  color: var(--se-green);
+}
+
+/* Section headings */
+section h3 {
+  color: var(--se-teal);
+}
+
+/* About section skills */
+.badge {
+  background-color: var(--se-teal) !important;
+}
+
+/* Nav links */
+.nav-link:hover {
+  color: var(--se-green) !important;
+}

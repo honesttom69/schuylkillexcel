@@ -12,12 +12,24 @@ theme = "hugo-profile"
 [params]
   title = "SchuylkillExcel"
   description = "Operations finance consulting for small and mid-size businesses"
-  #favicon = "/favicon.ico"
+  favicon = "/images/favicon.png"
+  customCSS = true
   useBootstrapCDN = true
   animate = true
 
+  [params.navbar]
+    brandLogo = "/images/favicon.png"
+    brandName = "SchuylkillExcel"
+    showBrandLogo = true
+    stickyNavBar = { enable = true, showOnScrollUp = true }
+
   [params.theme]
     defaultTheme = "light"
+
+  [params.color]
+    primaryColor = "#006D6F"
+    textColor = "#1a1a2e"
+    secondaryTextColor = "#4a4a4a"
 
   [params.font]
     fontSize = "1rem"
