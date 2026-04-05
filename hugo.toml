@@ -144,6 +144,15 @@ AP/AR cleanup, accrual management, reporting automation.
       badges = ["Process Improvement", "AP/AR", "Accruals", "Automation"]
 
     [[params.projects.items]]
+      title = "Product Costing — Services & Goods"
+      content = """
+Know what your products and services actually cost to deliver. I build costing \
+models for manufactured goods, service engagements, and blended offerings — \
+so you can price with confidence and spot margin leaks before they hurt.
+"""
+      badges = ["Product Costing", "COGS", "Margin Analysis", "Pricing"]
+
+    [[params.projects.items]]
       title = "AI Automation & Workflow Design"
       content = """
 Practical AI that does real work — not hype. I build automated workflows, \
