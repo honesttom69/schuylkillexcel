@@ -5,7 +5,12 @@
         <h3 class="text-center bg-transparent">{{ $about.title | default (i18n "about") }}</h3>
         <div class="bg-transparent row justify-content-center px-3 py-3">
             {{ if .Site.Params.about.image }}
-            <div class="col-sm-12 col-md-8 col-lg-4 mb-3 mb-sm-0 mb-md-3 mb-lg-0 d-none d-sm-none d-md-block">
+            <!-- Mobile: small centered headshot -->
+            <div class="col-12 d-block d-md-none text-center mb-3">
+                <img src="{{ .Site.Params.about.image }}" class="img-thumbnail rounded-circle about-img-mobile" alt="{{ .Site.Params.title }} profile picture">
+            </div>
+            <!-- Desktop: large sidebar headshot -->
+            <div class="col-sm-12 col-md-8 col-lg-4 mb-3 mb-sm-0 mb-md-3 mb-lg-0 d-none d-md-block">
                 <div class="image d-flex px-5">
                     <img src="{{ .Site.Params.about.image }}" class="img-thumbnail mx-auto rounded-circle" alt="{{ .Site.Params.title }} profile picture">
                 </div>

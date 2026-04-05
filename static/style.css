@@ -73,6 +73,15 @@ section {
   color: var(--se-dark);
 }
 
+/* Mobile headshot */
+.about-img-mobile {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  padding: 0 !important;
+  border: 2px solid var(--se-teal) !important;
+}
+
 /* Core Capabilities badges - 4 across */
 .about-text .badge {
   font-size: 0.85rem;
