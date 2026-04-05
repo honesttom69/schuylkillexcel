@@ -1,6 +1,6 @@
 {{ if .Site.Params.hero.enable | default false }}
 {{- $hero := .Site.Language.Params.hero | default .Site.Params.hero -}}
-<section id="hero" class="py-5 align-middle">
+<section id="hero" class="py-3 align-middle">
     <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
         <div class="row">
             <div class="col-sm-12 col-md-12 {{ if .Site.Params.hero.image }}col-lg-8{{ else }}col-lg-12{{ end }} content {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
@@ -36,7 +36,7 @@
             <div class="col-sm-12 col-md-12 col-lg-4">
                 <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-9 pt-5 image {{ if .Site.Params.animate }}animate{{ end }} px-5 px-md-5 px-lg-0 text-center">
-                        <img src="{{ .Site.Params.hero.image }}"
+                        <img src="{{ .Site.Params.hero.image.url }}"
                             class="img-thumbnail mx-auto{{ if .Site.Params.hero.roundImage }} rounded-circle{{ end }}"
                             alt="{{ .Site.Params.title }} profile image"
                         >
@@ -46,15 +46,5 @@
             {{ end }}
         </div>
     </div>
-    {{ if .Site.Params.hero.bottomImage.enable | default true }}
-    <div class="hero-bottom-svg d-md-block d-lg-block d-none">
-        <svg xmlns="http://www.w3.org/2000/svg" width="201" height="201" viewBox="0 0 201 201">
-            <g id="Group_1168" data-name="Group 1168" transform="translate(-384 -1392)">
-                <rect id="Rectangle_2206" data-name="Rectangle 2206" width="12" height="2" rx="1"
-                    transform="translate(391 1392) rotate(90)" fill="#282f49" />
-            </g>
-        </svg>
-    </div>
-    {{ end }}
 </section>
 {{ end }}
