@@ -47,7 +47,7 @@ without the enterprise price tag. Dashboards, ERP, forecasting, AI automation â€
 built to actually get used, not collect dust.
 """
     [params.hero.image]
-      url = "/images/headshot.jpg"
+      url = "/images/logo.png"
     [params.hero.bottomImage]
       enable = false
     [params.hero.button]
