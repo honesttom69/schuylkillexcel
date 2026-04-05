@@ -64,15 +64,15 @@ built to actually get used, not collect dust.
     title = "About Me"
     image = "/images/headshot.jpg"
     content = """
-I've spent a decade in operations finance — financial reporting at a $3B grocery chain, \
-demand forecasting for Truly Hard Seltzer at Boston Beer, and currently running ops finance \
-for a Fortune Brands manufacturing subsidiary.
+I've spent a decade in **operations finance** — financial reporting at a **$3B grocery chain**, \
+demand forecasting for **Truly Hard Seltzer** at **Boston Beer**, and currently running ops finance \
+for a **Fortune Brands** manufacturing subsidiary.
 
-I also built an AI assistant on a $0 budget that manages 100+ projects and runs my entire \
+I also built an **AI assistant** on a $0 budget that manages **100+ projects** and runs my entire \
 productivity system — on an old computer in my basement. I like figuring out how things \
 work and making them work better.
 
-Now I'm helping small businesses get the same caliber finance systems and AI automation \
+Now I'm helping **small businesses** get the same caliber finance systems and AI automation \
 that big companies have, without the big company price tag or complexity.
 """
     [params.about.skills]

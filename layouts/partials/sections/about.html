@@ -1,0 +1,31 @@
+{{ if .Site.Params.about.enable | default false }}
+{{- $about := .Site.Language.Params.about | default .Site.Params.about -}}
+<section id="about" class="py-0 py-sm-3">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">{{ $about.title | default (i18n "about") }}</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-3">
+            {{ if .Site.Params.about.image }}
+            <div class="col-sm-12 col-md-8 col-lg-4 mb-3 mb-sm-0 mb-md-3 mb-lg-0 d-none d-sm-none d-md-block">
+                <div class="image d-flex px-5">
+                    <img src="{{ .Site.Params.about.image }}" class="img-thumbnail mx-auto rounded-circle" alt="{{ .Site.Params.title }} profile picture">
+                </div>
+            </div>
+            {{ end }}
+            <div class="col-sm-12 col-md-12 col-lg-8 content about-text">
+                {{ $about.content | markdownify }}
+
+                {{ if .Site.Params.about.skills.enable }}
+                <h5 class="mt-3 mb-2">{{ $about.skills.title | default .Site.Params.about.skills.title }}</h5>
+                <div class="row">
+                    {{ range .Site.Params.about.skills.items }}
+                    <div class="col-6 col-md-6 col-lg-3 mb-2">
+                        <span class="badge badge-secondary w-100 py-2">{{ . | markdownify }}</span>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

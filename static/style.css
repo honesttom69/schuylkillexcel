@@ -40,8 +40,39 @@ body, h1, h2, h3, h4, h5, h6, p, a, span, li, .navbar-brand, .btn, .badge, .card
 
 /* Reduce section spacing */
 section {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+/* Kill the gap between hero and about */
+#hero {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+#about {
+  padding-top: 0.5rem !important;
+  margin-top: 0 !important;
+}
+
+/* About me text - light weight, readable */
+.about-text,
+.about-text p {
+  font-weight: 300 !important;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+.about-text strong {
+  font-weight: 600 !important;
+  color: var(--se-dark);
+}
+
+/* Core Capabilities badges - 4 across */
+.about-text .badge {
+  font-size: 0.85rem;
+  font-weight: 400 !important;
+  white-space: normal;
+  text-align: center;
 }
 
 /* Buttons */
