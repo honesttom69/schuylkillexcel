@@ -94,30 +94,38 @@ that big companies have, without the big company price tag or complexity.
     [[params.experience.items]]
       job = "Operations Finance Manager"
       company = "Fortune Brands Innovations (Solar Innovations)"
+      logo = "/images/fortune-brands-logo.png"
       date = "Current"
       content = """
-Manage financial operations for manufacturing subsidiary. Lead RBNI accrual remediation, \
-cost analysis, and reporting. Build forecasting models and SSRS-based dashboards for \
-cross-functional teams.
+Manage financial operations for a **manufacturing subsidiary** of a Fortune 500 company. \
+Lead **RBNI accrual remediation**, cost analysis, and cross-functional reporting. \
+Build **forecasting models** and **SSRS-based dashboards** that drive real decisions.
 """
+      badges = ["SAP", "SSRS", "Power BI", "Excel", "Cost Analysis"]
 
     [[params.experience.items]]
       job = "Finance / Power BI & Forecasting"
       company = "Boston Beer Company"
+      logo = "/images/boston-beer-logo.png"
       date = "Previous"
       content = """
-Built Power BI dashboards for demand forecasting and cost analysis on the Truly Hard Seltzer \
-product line. Designed reporting infrastructure for high-growth beverage brand.
+Built **Power BI dashboards** for demand forecasting and cost analysis on the \
+**Truly Hard Seltzer** product line during its explosive growth phase. \
+Designed reporting infrastructure that scaled with a **high-growth beverage brand**.
 """
+      badges = ["Power BI", "Forecasting", "Cost Modeling", "SQL"]
 
     [[params.experience.items]]
       job = "Finance"
       company = "Weis Markets"
+      logo = "/images/weis-markets-logo.png"
       date = "Previous"
       content = """
-Financial analysis and reporting for Mid-Atlantic grocery retailer with $3B+ in annual revenue \
-and 190+ store locations.
+Financial analysis and reporting for a **Mid-Atlantic grocery retailer** with \
+**$3B+ in annual revenue** and **190+ store locations**. Built reporting workflows \
+and supported operational finance across the organization.
 """
+      badges = ["Financial Reporting", "Excel", "Analysis"]
 
   [params.projects]
     enable = true

@@ -1,0 +1,44 @@
+{{ if .Site.Params.experience.enable | default false }}
+{{- $experience := .Site.Language.Params.experience | default .Site.Params.experience -}}
+<section id="experience" class="py-3">
+    <div class="container">
+        <h3 class="text-center mb-4">{{ $experience.title | default .Site.Params.experience.title | default (i18n "experience") }}</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-10 col-lg-10">
+                {{ range $index, $element := $experience.items | default .Site.Params.experience.items }}
+                <div class="card mb-3 experience-card">
+                    <div class="card-body p-4">
+                        <div class="row align-items-center">
+                            {{ if .logo }}
+                            <div class="col-auto d-none d-md-block">
+                                <img src="{{ .logo }}" alt="{{ .company }} logo" class="experience-logo">
+                            </div>
+                            {{ end }}
+                            <div class="{{ if .logo }}col{{ else }}col-12{{ end }}">
+                                <div class="d-flex justify-content-between align-items-start flex-wrap">
+                                    <div>
+                                        <h5 class="mb-0 experience-title">{{ .job }}</h5>
+                                        <h6 class="experience-company">{{ .company }}</h6>
+                                    </div>
+                                    <span class="badge experience-date">{{ .date }}</span>
+                                </div>
+                                <div class="experience-content mt-2">
+                                    {{ .content | markdownify }}
+                                </div>
+                                {{ if .badges }}
+                                <div class="mt-2">
+                                    {{ range .badges }}
+                                    <span class="badge badge-secondary experience-badge me-1 mb-1">{{ . }}</span>
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

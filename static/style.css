@@ -155,6 +155,51 @@ section h3 {
   color: var(--se-green) !important;
 }
 
+/* Experience section */
+.experience-card {
+  border: none !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.experience-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.12);
+}
+.experience-logo {
+  max-width: 120px;
+  max-height: 60px;
+  object-fit: contain;
+}
+.experience-title {
+  color: var(--se-dark) !important;
+  font-weight: 600 !important;
+}
+.experience-company {
+  color: var(--se-teal) !important;
+  font-weight: 400 !important;
+  font-size: 0.95rem;
+}
+.experience-date {
+  background-color: var(--se-teal) !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+  font-size: 0.8rem;
+}
+.experience-content {
+  font-weight: 300 !important;
+  line-height: 1.6;
+  color: #444;
+}
+.experience-content strong {
+  font-weight: 600 !important;
+  color: var(--se-dark);
+}
+.experience-badge {
+  font-size: 0.75rem !important;
+  font-weight: 400 !important;
+}
+
 /* Footer social links */
 footer a {
   color: var(--se-teal) !important;
