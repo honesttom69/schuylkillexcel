@@ -221,6 +221,17 @@ section h3 {
   font-weight: 400 !important;
 }
 
+/* Contact section outline button */
+.btn-outline {
+  background-color: transparent !important;
+  border: 2px solid var(--se-teal) !important;
+  color: var(--se-teal) !important;
+}
+.btn-outline:hover {
+  background-color: var(--se-teal) !important;
+  color: #fff !important;
+}
+
 /* Footer social links */
 footer a {
   color: var(--se-teal) !important;

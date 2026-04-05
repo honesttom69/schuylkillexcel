@@ -1,0 +1,27 @@
+{{ if .Site.Params.contact.enable | default false }}
+{{- $contact := .Site.Language.Params.contact | default .Site.Params.contact -}}
+<section id="contact" class="py-3">
+    <div class="container">
+        <h3 class="text-center">{{ $contact.title | default (i18n "contact") }}</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-md-5">
+                <div class="col-md-8 py-3">
+                    <div class="text-center">
+                        {{ $contact.content | emojify | markdownify }}
+                    </div>
+                    <div class="text-center pt-3">
+                        <a href="mailto:{{ .Site.Params.contact.email }}" class="btn me-2 mb-2">
+                            <i class="fas fa-envelope me-1"></i> Email Me
+                        </a>
+                        {{ if .Site.Params.contact.btnLink }}
+                        <a href="{{ .Site.Params.contact.btnLink }}" target="_blank" class="btn btn-outline mb-2">
+                            <i class="fab fa-linkedin me-1"></i> {{ $contact.btnName | default "LinkedIn" }}
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

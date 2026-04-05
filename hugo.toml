@@ -191,11 +191,12 @@ reporting pipelines, and AI assistants that save you hours every week.
   [params.contact]
     enable = true
     title = "Get In Touch"
+    email = "schuylkillexcel@gmail.com"
     content = """
 Whether you need a one-time project or ongoing fractional finance support, \
 I'd love to hear about what you're working on.
 """
-    btnName = "Connect on LinkedIn"
+    btnName = "LinkedIn"
     btnLink = "https://www.linkedin.com/in/tom-hinkle-832a1711/"
 
   [params.footer]
