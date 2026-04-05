@@ -34,8 +34,8 @@ Now I help small businesses get the same caliber systems and reporting \
 without the enterprise price tag. Dashboards, ERP, forecasting, AI automation — \
 built to actually get used, not collect dust.
 """
-    #[params.hero.image]
-    #  url = "/images/headshot.jpg"
+    [params.hero.image]
+      url = "/images/headshot.jpg"
     [params.hero.bottomImage]
       enable = false
     [params.hero.button]
@@ -50,7 +50,7 @@ built to actually get used, not collect dust.
   [params.about]
     enable = true
     title = "About Me"
-    #image = "/images/headshot.jpg"
+    image = "/images/headshot.jpg"
     content = """
 I've spent a decade in operations finance — financial reporting at a $3B grocery chain, \
 demand forecasting for Truly Hard Seltzer at Boston Beer, and currently running ops finance \
