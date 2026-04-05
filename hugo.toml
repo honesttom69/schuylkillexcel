@@ -47,7 +47,7 @@ without the enterprise price tag. Dashboards, ERP, forecasting, AI automation â€
 built to actually get used, not collect dust.
 """
     [params.hero.image]
-      url = "/images/logo.png"
+      url = "/images/hero-logo.png"
     [params.hero.bottomImage]
       enable = false
     [params.hero.button]
@@ -93,39 +93,47 @@ that big companies have, without the big company price tag or complexity.
 
     [[params.experience.items]]
       job = "Operations Finance Manager"
-      company = "Fortune Brands Innovations (Solar Innovations)"
+      company = "Fortune Brands Innovations / Solar Innovations"
       logo = "/images/fortune-brands-logo.png"
-      date = "Current"
       content = """
-Manage financial operations for a **manufacturing subsidiary** of a Fortune 500 company. \
-Lead **RBNI accrual remediation**, cost analysis, and cross-functional reporting. \
-Build **forecasting models** and **SSRS-based dashboards** that drive real decisions.
+**Fortune 500** home and security products company. \
+Manage financial operations for a manufacturing subsidiary â€” cost analysis, \
+accrual remediation, forecasting models, and SSRS dashboards for cross-functional teams.
 """
-      badges = ["SAP", "SSRS", "Power BI", "Excel", "Cost Analysis"]
+      badges = ["SAP", "SSRS", "Power BI", "Cost Analysis"]
 
     [[params.experience.items]]
-      job = "Finance / Power BI & Forecasting"
+      job = "Sr. Financial Operations Analyst / Sr. Cost Analyst"
       company = "Boston Beer Company"
       logo = "/images/boston-beer-logo.png"
-      date = "Previous"
       content = """
-Built **Power BI dashboards** for demand forecasting and cost analysis on the \
-**Truly Hard Seltzer** product line during its explosive growth phase. \
-Designed reporting infrastructure that scaled with a **high-growth beverage brand**.
+Maker of **Sam Adams** and **Truly Hard Seltzer**. \
+Built Power BI dashboards for demand forecasting and cost analysis during Truly's \
+explosive growth phase. Designed reporting infrastructure that scaled with the brand.
 """
       badges = ["Power BI", "Forecasting", "Cost Modeling", "SQL"]
 
     [[params.experience.items]]
-      job = "Finance"
+      job = "Senior Financial Analyst"
+      company = "Penn Entertainment"
+      logo = "/images/penn-entertainment-logo.png"
+      content = """
+One of the **largest casino operators** in the U.S. with 41 properties nationwide. \
+Consolidated commercial performance reporting across all properties, built the company's \
+first consolidated labor report and automated it in Tableau.
+"""
+      badges = ["Tableau", "Financial Reporting", "Capital ROI", "Data Integration"]
+
+    [[params.experience.items]]
+      job = "Manager of Labor Statistics"
       company = "Weis Markets"
       logo = "/images/weis-markets-logo.png"
-      date = "Previous"
       content = """
-Financial analysis and reporting for a **Mid-Atlantic grocery retailer** with \
-**$3B+ in annual revenue** and **190+ store locations**. Built reporting workflows \
-and supported operational finance across the organization.
+**Mid-Atlantic grocery retailer** with $3B+ in revenue and 190+ stores. \
+Rolled out labor standards across nearly 200 locations, built BI reports for senior \
+leadership, and trained users on the enterprise reporting platform.
 """
-      badges = ["Financial Reporting", "Excel", "Analysis"]
+      badges = ["BI Reporting", "Labor Analytics", "Excel", "Process Improvement"]
 
   [params.projects]
     enable = true
