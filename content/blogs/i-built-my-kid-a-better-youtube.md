@@ -33,8 +33,6 @@ Bought a $30 Fire TV Stick and sideloaded an open source YouTube replacement tha
 
 My son gets full-length videos. Minecraft builds. Star Wars lore. Nature documentaries. The stuff he actually wants to watch. No algorithm deciding what comes next.
 
-Then I set up retro games on the same device. NES. Super Nintendo. Genesis. Nearly 9,000 games from the 80s and 90s. He plays the same ones I played when I was his age.
-
 Total cost: $30 and a Saturday afternoon.
 
 ## Why It Matters
